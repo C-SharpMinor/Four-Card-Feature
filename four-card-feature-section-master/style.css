@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  min-height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(212, 6%, 90%);
+}
+
+.head{
+    text-align: center;
+    
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.top{
+    font-weight: 200;
+}
+
+h3{
+    font-weight: 300;
+    }
+
+.card{
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#team{
+    grid-row: 1;
+    grid-column: 2;
+}
+#supervisor{
+        grid-row: 1;
+    grid-column: 1;
+}
